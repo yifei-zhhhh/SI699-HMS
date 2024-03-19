@@ -7,14 +7,14 @@ Electroencephalography (EEG) is a non-invasive method of monitoring and recordin
 ## Data
 
  train.csv
-| **Column Name**                 | **Description**                                                                    |   |
-|---------------------------------|------------------------------------------------------------------------------------|---|
-| eeg_id                          | A unique identifier for the entire EEG recording.                                  |   |
-| eeg_sub_id                      | An ID for the specific 50-second long subsample this row's labels apply to.        |   |
-| eeg_label_offset_seconds        | The time between the beginning of the consolidated EEG and this subsample.         |   |
-| spectrogram_id                  | A unique identifier for the entire EEG recording.                                  |   |
-| spectrogram_sub_id              | An ID for the specific 10-minute subsample this row's labels apply to.             |   |
-| spectogram_label_offset_seconds | The time between the beginning of the consolidated spectrogram and this subsample. |   |
-| label_id                        | An ID for this set of labels.                                                      |   |
-| patient_id                      | An ID for the patient who donated the data.                                        |   |
-| expert_consensus                | The consensus annotator label. Provided for convenience only.                      |   |
+| **Column Name**                 | **Description**                                                                    |
+|---------------------------------|------------------------------------------------------------------------------------|
+| eeg_id                          | A unique identifier for the entire EEG recording.                                  |
+| eeg_sub_id                      | An ID for the specific 50-second long subsample this row's labels apply to.        |
+| eeg_label_offset_seconds        | The time between the beginning of the consolidated EEG and this subsample.         |
+| spectrogram_id                  | A unique identifier for the entire EEG recording.                                  |
+| spectrogram_sub_id              | An ID for the specific 10-minute subsample this row's labels apply to.             |
+| spectogram_label_offset_seconds | The time between the beginning of the consolidated spectrogram and this subsample. |
+| label_id                        | An ID for this set of labels.                                                      |
+| patient_id                      | An ID for the patient who donated the data.                                        |
+| expert_consensus                | The consensus annotator label. Provided for convenience only.                      |
