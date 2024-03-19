@@ -6,7 +6,7 @@ Electroencephalography (EEG) is a non-invasive method of monitoring and recordin
 
 ## Data
 
-* train.csv
+ train.csv
 | **Column Name**                 | **Description**                                                                    |   |
 |---------------------------------|------------------------------------------------------------------------------------|---|
 | eeg_id                          | A unique identifier for the entire EEG recording.                                  |   |
