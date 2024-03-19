@@ -26,3 +26,9 @@ For train.csv, the detailed information is given:
 | label_id                        | An ID for this set of labels.                                                      |
 | patient_id                      | An ID for the patient who donated the data.                                        |
 | expert_consensus                | The consensus annotator label. Provided for convenience only.                      |
+
+## Model Prototype
+<img width="1324" alt="image" src="https://github.com/yifei-zhhhh/SI699-HMS/assets/119919755/cc0b4c6c-b077-4f2e-bc53-68de6fd1481e">
+
+## How to compile
+The data size is quite large (26.4GB) and also accelerator is required to run this project, so we highly recommend you to run the code in Kaggle, and you can directly load data inside from [the hms page](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/overview).
