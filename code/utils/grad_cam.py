@@ -1,4 +1,5 @@
-"""Grad cam implementation.
+"""
+Grad cam implementation.
 """
 
 import numpy as np
