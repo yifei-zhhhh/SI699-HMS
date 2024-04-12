@@ -76,3 +76,10 @@ You can find the all codes in the `code` directory. You can use the jupyter note
 - `utils`: utility functions for the project
 
 We have examined the code format for the python file with pylint (9.12/10) and black.
+
+## Acknowledgments
+
+Special thanks to the following website for the valuable resources and inspiration:
+
+- [EfficientNetB2 Starter]([https://www.website-a.com](https://www.kaggle.com/code/cdeotte/efficientnetb0-starter-lb-0-43)): EfficientNetB2 Starter.
+- [EfficientNetB0 PyTorch]([https://www.kaggle.com/code/alejopaullier/hms-efficientnetb0-pytorch-inference])): EfficientNetB0 PyTorch.
