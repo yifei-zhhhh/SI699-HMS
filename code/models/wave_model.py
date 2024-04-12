@@ -1,5 +1,7 @@
 """
-This module contains the implementation of the EEGWaveNet model.
+This module contains the implementation of the EEGWaveNet model. We got the inspiration 
+from the following notebook: 
+https://www.kaggle.com/code/nischaydnk/lightning-1d-eegnet-training-pipeline-hbs
 """
 
 import torch

@@ -1,6 +1,9 @@
 """
 Data loader for EEG data. This module contains the EEGDataset class which is used to load EEG data
 for training and validation. The EEGDataset class is a subclass of torch.utils.data.Dataset.
+We refer to this Chris Deotte's notebook for the implementation of the EEGDataset class:
+https://www.kaggle.com/code/cdeotte/efficientnetb0-starter-lb-0-43?scriptVersionId=159911317
+as the reference implementation and modify it to suit our needs.
 """
 
 import torch
