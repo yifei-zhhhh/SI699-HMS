@@ -41,7 +41,6 @@ class TestExperiment(unittest.TestCase):
             df_train = df[df.fold != fold_id]
             df_valid = df[df.fold == fold_id]
             self.kfold_data["all"].append(
-                # get_fold_dls(df_train, df_valid, eegs, specs, EEGDataset)
                 get_fold_dls(df_train, df_valid, eegs, specs, EEGDatasetV2)
             )
             self.kfold_data["spec"].append(

@@ -75,4 +75,4 @@ You can find the all codes in the `code` directory. You can use the jupyter note
 - `tests`: test code for the model
 - `utils`: utility functions for the project
 
-We have examined the code format for the python file with pylint (9.10/10) and black.
+We have examined the code format for the python file with pylint (9.12/10) and black.

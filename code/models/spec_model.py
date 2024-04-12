@@ -95,7 +95,6 @@ class EEGSpecNet(nn.Module):
             Tensor: The features extracted by the backbone model
             Tensor: The output logits
         """
-        # x = self._concatenate_channels(x)
         feats = self.fc(self.features(x))
         logits = self.prediction(feats)
         return feats, logits

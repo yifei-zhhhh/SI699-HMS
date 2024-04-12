@@ -1,3 +1,7 @@
+"""
+Code reused from the Kaggle competition's evaluation script.
+"""
+
 import numpy as np
 import pandas as pd
 import pandas.api.types

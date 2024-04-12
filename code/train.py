@@ -66,10 +66,8 @@ def parse_args():
     # optimization
     parser.add_argument("--itr", type=int, default=1, help="experiments times")
 
+    # epochs
     parser.add_argument("--epochs", type=int, default=0)
-
-    # GPU
-    # parser.add_argument('--gpu', type = int, default = 0, help='gpu')
 
     args = parser.parse_args()
     return args
@@ -79,10 +77,7 @@ def main(args):
     """The main function to run the experiment."""
     # Load the data
     df = pd.read_csv(f"{Config.data_root}train_300_patients.csv")
-    # EEG_IDS = df.eeg_id.unique()
     TARGETS = Config.TARGETS
-    # TARS = {'Seizure':0, 'LPD':1, 'GPD':2, 'LRDA':3, 'GRDA':4, 'Other':5}
-    # TARS_INV = {x:y for y,x in TARS.items()}
 
     train_df = df.groupby("eeg_id")[
         ["spectrogram_id", "spectrogram_label_offset_seconds"]
@@ -149,7 +144,6 @@ def main(args):
         exp = Experiment(kfold_data["spec"], train, args.model, loss_cls)
 
     config = Config
-    # config.batch_size = 10
     if args.epochs != 0:
         config.epochs = args.epochs
 

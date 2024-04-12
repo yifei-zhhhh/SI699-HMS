@@ -1,5 +1,6 @@
 """
 This script exists to reduce code duplication across metrics.
+Code reused from the Kaggle competition's evaluation script.
 """
 
 import numpy as np

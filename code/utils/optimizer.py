@@ -36,11 +36,3 @@ def get_optimizer(lr, params, weight_decay, epochs):
             "frequency": 1,
         },
     }
-
-
-# # test
-# params = [
-#     torch.nn.Parameter(torch.randn(2, 2, requires_grad=True)),
-#     torch.nn.Parameter(torch.randn(2, 2, requires_grad=True))
-# ]
-# optimizer = get_optimizer(lr=0.001, params=params, weight_decay=1e-2, epochs=10)
