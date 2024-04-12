@@ -1,6 +1,4 @@
 """Grad cam implementation.
-Reference:
-https://blog.csdn.net/weixin_41735859/article/details/106474768
 """
 
 import numpy as np
