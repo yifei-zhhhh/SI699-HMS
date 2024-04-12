@@ -1,0 +1,11 @@
+# python 3.8
+numpy
+opencv_python_headless
+pandas
+pytorch_lightning
+pytorchtools
+scikit_learn
+scipy
+timm
+torch
+tqdm
