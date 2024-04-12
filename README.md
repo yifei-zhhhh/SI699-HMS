@@ -79,7 +79,8 @@ We have examined the code format for the python file with pylint (9.12/10) and b
 
 ## Acknowledgments
 
-Special thanks to the following website for the valuable resources and inspiration:
+Special thanks to the following websites for their valuable resources and inspiration:
 
 - [EfficientNetB2 Starter](https://www.kaggle.com/code/cdeotte/efficientnetb0-starter-lb-0-43)
 - [EfficientNetB0 PyTorch](https://www.kaggle.com/code/alejopaullier/hms-efficientnetb0-pytorch-inference)
+- [Grad Class Activation Map](https://blog.csdn.net/weixin_41735859/article/details/106474768)
