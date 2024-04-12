@@ -1,0 +1,7 @@
+**/.DS_Store
+**/*.npy
+**/__pycache__
+lightning_logs/
+**/output
+**/.pytest_cache
+**/results*
